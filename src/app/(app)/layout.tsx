@@ -73,10 +73,7 @@ export default function AppLayout({
             <SheetContent side="left" className="w-64 p-0">
               <div className="p-4 border-b">
                 <Link href="/dashboard" className="flex items-center gap-2">
-                  <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-                    <Radio className="w-5 h-5 text-primary-foreground" />
-                  </div>
-                  <span className="font-bold text-xl">PortaCast</span>
+                  <img src="/logo.svg" alt="PortaCast" className="h-8" />
                 </Link>
               </div>
               <nav className="p-4 space-y-2">
@@ -87,10 +84,7 @@ export default function AppLayout({
 
           {/* Logo */}
           <Link href="/dashboard" className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-              <Radio className="w-5 h-5 text-primary-foreground" />
-            </div>
-            <span className="font-bold text-xl hidden sm:block">PortaCast</span>
+            <img src="/logo.svg" alt="PortaCast" className="h-8" />
           </Link>
 
           {/* Desktop nav */}
